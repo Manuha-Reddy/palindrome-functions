@@ -1,0 +1,7 @@
+function palindrome(a){
+  const str = a.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+  const reverse = str.split('').reverse().join('');
+  return reverse;
+}
+const a = 'A Man, a plan, a canal, Panama'
+document.write(palindrome(a));
