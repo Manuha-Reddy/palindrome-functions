@@ -1,0 +1,15 @@
+function RS(str) {
+  return str.split('').reverse().join('');
+}
+
+function isPalindrome(str) {
+  const reversedString = RS(str);
+  if (str === RS) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(isPalindrome("hello")); 
+console.log(isPalindrome("racecar")); 
